@@ -1,0 +1,202 @@
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut .wrapper {
+    height: 52px;
+}
+
+.shortcut .wrapper ul {
+    float: right;
+}
+
+.shortcut .wrapper ul li {
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut .wrapper ul a {
+    padding: 0 16px;
+    border-right: 1px solid #666;
+    font-size: 14px;
+    color: #dcdcdc;
+}
+
+.shortcut .wrapper li:nth-child(7) a {
+    border-right: none;
+}
+
+.shortcut .wrapper ul span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    width: 11px;
+    height: 16px;
+    background-color: pink;
+}
+
+.header {
+    margin: 30px auto;
+    height: 70px;
+}
+
+.header .logo {
+    float: left;
+    width: 207px;
+    height: 70px;
+    background-color: skyblue;
+}
+
+.header .logo a {
+    display: inline-block;
+    width: 207px;
+    height: 70px;
+    background-size: contain;
+    font-size: 0;
+}
+
+.header .nav {
+    float: left;
+    margin-left: 40px;
+    height: 70px;
+}
+
+.header .nav li {
+    float: left;
+    margin-right: 48px;
+    line-height: 70px;
+}
+
+.header .nav li a {
+    padding-bottom: 7px;
+}
+
+.header .nav li a:hover {
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+
+.header .search {
+    position: relative;
+    float: left;
+    margin-left: 34px;
+    margin-top: 24px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+}
+
+.header .search span {
+    position: absolute;
+    left: 2px;
+    top: 0;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: green;
+}
+
+.header .search input {
+    padding-left: 30px;
+    width: 172px;
+    height: 28px;
+}
+
+.header .search input::placeholder {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.header .car {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    margin-top: 28px;
+    width: 23px;
+    height: 23px;
+    background-color: yellow;
+}
+
+.header .car span {
+    position: absolute;
+    right: -13px;
+    top: -6px;
+    display: inline-block;
+    width: 20px;
+    height: 15px;
+    background-color: #e26237;
+    border-radius: 8px;
+    line-height: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+.footer {
+    height: 342px;
+    background-color: #333;
+}
+
+.footer .wrapper {
+    width: 1393px;
+}
+
+.footer .wrapper .top {
+    padding-top: 59px;
+    padding-left: 135px;
+    height: 175px;
+    border-bottom: 3px solid #434343;
+}
+
+.footer .wrapper .top li {
+    position: relative;
+    float: left;
+    margin-right: 300px;
+    width: 195px;
+    height: 58px;
+    line-height: 58px;
+}
+
+.footer .wrapper .top li:nth-child(3) {
+    margin-right: 0;
+}
+
+.footer .wrapper .top li::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    content: '';
+    width: 58px;
+    height: 58px;
+    background-color: green;
+    vertical-align: middle;
+}
+
+.footer .wrapper .top li span {
+    margin-left: 77px;
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer .wrapper .bottom {
+    padding-top: 40px;
+    font-size: 14px;
+    color: #999;
+    text-align: center;
+}
+
+.footer .wrapper .bottom a {
+    font-size: 14px;
+    color: #999;
+}
+
+.footer .wrapper .bottom p {
+    margin-bottom: 20px;
+}
